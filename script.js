@@ -48,6 +48,7 @@ document.querySelector('.click').addEventListener('click', function () {
       "url('dance.gif')";
     // console.log(score, highScore, myScore);
   } else if (score === 1) {
+    document.querySelector('.number').innerHTML = random;
     document.querySelector('.score').innerHTML = 0;
     document.querySelector('.message').innerHTML = `GAME OVER YOU LOST`;
     document.querySelector('.h1').innerHTML = `BETTER LUCK NEXT TIME😢🤦‍♂️`;
