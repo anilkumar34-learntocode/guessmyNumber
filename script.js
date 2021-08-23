@@ -86,7 +86,7 @@ document.querySelector('.btn').addEventListener('click', function () {
   document.querySelector('.number').innerHTML = '?';
   document.querySelector('.score').innerHTML = score;
   document.querySelector('.message').innerHTML = 'ENTER YOUR NUMBER';
-  document.querySelector('.h1').innerHTML = 'Guess My Number!';
+  document.querySelector('.h1').innerHTML = 'Guess The Number!';
   document.querySelector('.display').style.backgroundImage =
     "url('penguin.png')";
   // console.log(score, highScore, myScore);
