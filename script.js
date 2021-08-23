@@ -47,7 +47,9 @@ document.querySelector('.click').addEventListener('click', function () {
     document.querySelector('.display').style.backgroundImage =
       "url('dance.gif')";
     // console.log(score, highScore, myScore);
-  } else if (score === 1) {
+  } else if (!guess || guess === '') {
+    document.querySelector('.message').innerHTML = `ENTER A VALID NUMBER`;
+  else if (score === 1) {
     document.querySelector('.number').innerHTML = random;
     document.querySelector('.guess').style.visibility = 'hidden';
     document.querySelector('.between').innerHTML = `WAS THE GUESS`;
