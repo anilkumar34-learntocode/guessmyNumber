@@ -84,6 +84,7 @@ document.querySelector('.btn').addEventListener('click', function () {
 
   myScore = 0;
   score = 10;
+  document.querySelector('.guess').style.visibility = 'visible';
   document.querySelector('.between').innerHTML = `GUESS FROM 1 TO 100`;
   document.querySelector('.myscore').innerHTML = myScore;
   document.querySelector('.guess').value = '';
