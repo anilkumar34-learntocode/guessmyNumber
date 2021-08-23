@@ -1,6 +1,6 @@
 'use strict';
 
-let random = Math.floor(Math.random() * 50) + 1;
+let random = Math.floor(Math.random() * 100) + 1;
 let score = 10;
 let highScore = 0;
 let myScore = 0;
@@ -65,7 +65,7 @@ document.querySelector('.click').addEventListener('click', function () {
 });
 
 document.querySelector('.btn').addEventListener('click', function () {
-  random = Math.floor(Math.random() * 50) + 1;
+  random = Math.floor(Math.random() * 100) + 1;
   // console.log(score, highScore, myScore);
   if (myScore > highScore) {
     document.querySelector('.highscore').innerHTML = myScore;
